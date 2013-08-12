@@ -13,7 +13,8 @@
 @interface tmbAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) tmbViewController *viewController;
+@property (strong, nonatomic) NSMutableArray *accounts;
+//@property (strong, nonatomic) UINavigationController *navController;
 
 @end

@@ -7,8 +7,8 @@
 //
 
 #import "tmbAppDelegate.h"
-
 #import "tmbViewController.h"
+#import "tmbAccount.h"
 
 @implementation tmbAppDelegate
 
@@ -16,6 +16,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    tmbAccount *testAccount1 = [[tmbAccount alloc] init];
+    testAccount1.accountName = @"Test Account 1";
+
+    tmbAccount *testAccount2 = [[tmbAccount alloc] init];
+    testAccount2.accountName = @"Test Account 2";
+
+    self.accounts = [[NSMutableArray alloc]initWithObjects:testAccount1, testAccount2, nil];
+    
+    
+    
     self.viewController = [[tmbViewController alloc] initWithNibName:@"tmbViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

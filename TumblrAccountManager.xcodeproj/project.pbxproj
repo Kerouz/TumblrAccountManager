@@ -18,6 +18,15 @@
 		18A77FC617B8E93D00F0152E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A77FC517B8E93D00F0152E /* Default-568h@2x.png */; };
 		18A77FC917B8E93D00F0152E /* tmbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77FC817B8E93D00F0152E /* tmbViewController.m */; };
 		18A77FCC17B8E93D00F0152E /* tmbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A77FCA17B8E93D00F0152E /* tmbViewController.xib */; };
+		18A77FD517B8EB7E00F0152E /* tmbAccountsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77FD317B8EB7E00F0152E /* tmbAccountsMainViewController.m */; };
+		18A77FD617B8EB7E00F0152E /* tmbAccountsMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A77FD417B8EB7E00F0152E /* tmbAccountsMainViewController.xib */; };
+		18A77FDA17B8EBA800F0152E /* tmbNewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77FD817B8EBA800F0152E /* tmbNewAccountViewController.m */; };
+		18A77FDB17B8EBA800F0152E /* tmbNewAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A77FD917B8EBA800F0152E /* tmbNewAccountViewController.xib */; };
+		18A77FDF17B8EBDA00F0152E /* tmbAccountFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77FDD17B8EBDA00F0152E /* tmbAccountFollowingViewController.m */; };
+		18A77FE017B8EBDA00F0152E /* tmbAccountFollowingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A77FDE17B8EBDA00F0152E /* tmbAccountFollowingViewController.xib */; };
+		18A77FE417B8EC0F00F0152E /* tmbFollowingMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77FE217B8EC0F00F0152E /* tmbFollowingMoveViewController.m */; };
+		18A77FE517B8EC0F00F0152E /* tmbFollowingMoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A77FE317B8EC0F00F0152E /* tmbFollowingMoveViewController.xib */; };
+		18A77FE817B8EFDA00F0152E /* tmbAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77FE717B8EFDA00F0152E /* tmbAccount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,20 @@
 		18A77FC717B8E93D00F0152E /* tmbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tmbViewController.h; sourceTree = "<group>"; };
 		18A77FC817B8E93D00F0152E /* tmbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmbViewController.m; sourceTree = "<group>"; };
 		18A77FCB17B8E93D00F0152E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tmbViewController.xib; sourceTree = "<group>"; };
+		18A77FD217B8EB7E00F0152E /* tmbAccountsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmbAccountsMainViewController.h; sourceTree = "<group>"; };
+		18A77FD317B8EB7E00F0152E /* tmbAccountsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmbAccountsMainViewController.m; sourceTree = "<group>"; };
+		18A77FD417B8EB7E00F0152E /* tmbAccountsMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tmbAccountsMainViewController.xib; sourceTree = "<group>"; };
+		18A77FD717B8EBA800F0152E /* tmbNewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmbNewAccountViewController.h; sourceTree = "<group>"; };
+		18A77FD817B8EBA800F0152E /* tmbNewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmbNewAccountViewController.m; sourceTree = "<group>"; };
+		18A77FD917B8EBA800F0152E /* tmbNewAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tmbNewAccountViewController.xib; sourceTree = "<group>"; };
+		18A77FDC17B8EBDA00F0152E /* tmbAccountFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmbAccountFollowingViewController.h; sourceTree = "<group>"; };
+		18A77FDD17B8EBDA00F0152E /* tmbAccountFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmbAccountFollowingViewController.m; sourceTree = "<group>"; };
+		18A77FDE17B8EBDA00F0152E /* tmbAccountFollowingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tmbAccountFollowingViewController.xib; sourceTree = "<group>"; };
+		18A77FE117B8EC0F00F0152E /* tmbFollowingMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmbFollowingMoveViewController.h; sourceTree = "<group>"; };
+		18A77FE217B8EC0F00F0152E /* tmbFollowingMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmbFollowingMoveViewController.m; sourceTree = "<group>"; };
+		18A77FE317B8EC0F00F0152E /* tmbFollowingMoveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tmbFollowingMoveViewController.xib; sourceTree = "<group>"; };
+		18A77FE617B8EFDA00F0152E /* tmbAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmbAccount.h; sourceTree = "<group>"; };
+		18A77FE717B8EFDA00F0152E /* tmbAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmbAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +111,21 @@
 				18A77FC717B8E93D00F0152E /* tmbViewController.h */,
 				18A77FC817B8E93D00F0152E /* tmbViewController.m */,
 				18A77FCA17B8E93D00F0152E /* tmbViewController.xib */,
+				18A77FE617B8EFDA00F0152E /* tmbAccount.h */,
+				18A77FE717B8EFDA00F0152E /* tmbAccount.m */,
 				18A77FB617B8E93D00F0152E /* Supporting Files */,
+				18A77FD217B8EB7E00F0152E /* tmbAccountsMainViewController.h */,
+				18A77FD317B8EB7E00F0152E /* tmbAccountsMainViewController.m */,
+				18A77FD417B8EB7E00F0152E /* tmbAccountsMainViewController.xib */,
+				18A77FD717B8EBA800F0152E /* tmbNewAccountViewController.h */,
+				18A77FD817B8EBA800F0152E /* tmbNewAccountViewController.m */,
+				18A77FD917B8EBA800F0152E /* tmbNewAccountViewController.xib */,
+				18A77FDC17B8EBDA00F0152E /* tmbAccountFollowingViewController.h */,
+				18A77FDD17B8EBDA00F0152E /* tmbAccountFollowingViewController.m */,
+				18A77FDE17B8EBDA00F0152E /* tmbAccountFollowingViewController.xib */,
+				18A77FE117B8EC0F00F0152E /* tmbFollowingMoveViewController.h */,
+				18A77FE217B8EC0F00F0152E /* tmbFollowingMoveViewController.m */,
+				18A77FE317B8EC0F00F0152E /* tmbFollowingMoveViewController.xib */,
 			);
 			path = TumblrAccountManager;
 			sourceTree = "<group>";
@@ -164,6 +201,10 @@
 				18A77FC417B8E93D00F0152E /* Default@2x.png in Resources */,
 				18A77FC617B8E93D00F0152E /* Default-568h@2x.png in Resources */,
 				18A77FCC17B8E93D00F0152E /* tmbViewController.xib in Resources */,
+				18A77FD617B8EB7E00F0152E /* tmbAccountsMainViewController.xib in Resources */,
+				18A77FDB17B8EBA800F0152E /* tmbNewAccountViewController.xib in Resources */,
+				18A77FE017B8EBDA00F0152E /* tmbAccountFollowingViewController.xib in Resources */,
+				18A77FE517B8EC0F00F0152E /* tmbFollowingMoveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +218,11 @@
 				18A77FBC17B8E93D00F0152E /* main.m in Sources */,
 				18A77FC017B8E93D00F0152E /* tmbAppDelegate.m in Sources */,
 				18A77FC917B8E93D00F0152E /* tmbViewController.m in Sources */,
+				18A77FD517B8EB7E00F0152E /* tmbAccountsMainViewController.m in Sources */,
+				18A77FDA17B8EBA800F0152E /* tmbNewAccountViewController.m in Sources */,
+				18A77FDF17B8EBDA00F0152E /* tmbAccountFollowingViewController.m in Sources */,
+				18A77FE417B8EC0F00F0152E /* tmbFollowingMoveViewController.m in Sources */,
+				18A77FE817B8EFDA00F0152E /* tmbAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  tmbViewController.h
+//  tmbAccountsMainViewController.h
 //  TumblrAccountManager
 //
 //  Created by Apple on 12/08/13.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tmbViewController : UIViewController
+@interface tmbAccountsMainViewController : UIViewController
+
 <UITableViewDataSource, UITableViewDelegate> {
     NSMutableArray *accounts;
 }
